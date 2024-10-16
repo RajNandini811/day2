@@ -1,0 +1,91 @@
+ js key words
+alert
+promt
+var
+_.length            (to count characters)
+_.slice             (to print given words eg (0,40))
+_.toUppercase()     (to print in upper case)
+_.toLowercase()     (to print in lower case)
+
+
+function getMilk(money) {                  ..............for money calculation
+    console.log  ("open door")
+    console.log  ("move left")
+    console.log  ("move right")
+    var numberOfBottles = Math.floor (money * 1.5 )             ......round down no. and 1.5 is rps 
+    console.log  ("buy " + numberOfBottles+ " bottles of milk")
+    console.log  ("move right")
+    console.log  ("move left")
+    console.log  ('close door')
+}
+getMilk(5);          .............calling function 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reactive forms
+
+
+
+js key words
+
+
+abstract	arguments	await*	boolean
+break	byte	case	catch
+char	class*	const*	continue  
+debugger	default	delete	do
+double	else	enum*	eval
+export*	extends*	false	final
+finally	float	for	function
+goto	if	implements	import*
+in	instanceof	int	interface
+let*	long	native	new
+null	package	private	protected
+public	return	short	static
+super*	switch	synchronized	this
+throw	throws	transient	true
+try	typeof	var	void
+volatile	while	with	yield
+
+
+
+
+
+JavaScript Objects, Properties, and Methods -
+
+You should also avoid using the name of JavaScript built-in objects, properties, and methods:
+Array	Date	eval	function
+hasOwnProperty	Infinity	isFinite	isNaN
+isPrototypeOf	length	Math	NaN
+name	Number	Object	prototype
+String	toString	undefined	valueOf
